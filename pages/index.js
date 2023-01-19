@@ -20,6 +20,7 @@ import {
 import emailjs from '@emailjs/browser'
 
 import { useRef } from 'react'
+import Carousel from '../components/Carrousel'
 
 // import videoBg from "../src/videos/cut.mp4"
 
@@ -120,6 +121,8 @@ export default function Home() {
                   montacargas, reach trucks, hand pallets y stackers en:
                 </span>
               </div>
+              <h2 className="m-5">Algunos de nuestros proyectos:</h2>
+              <Carousel />
               <div className="col-md-5 mt-5 mx-2 ">
                 <div className="row">
                   <div className="col-md-6 border p-1 ">
