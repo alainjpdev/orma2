@@ -65,11 +65,12 @@ export default function Home() {
             </div>
             <div className="contenttt p-2  mx-2">
               <h1>
-                ORMA LOGISTIC MAQUINARIA DE <br />
+                ORMA LOGISTIC
                 <br />
+                <h3> Expertos en</h3>
                 <div className="inner">
                   <span>
-                    CONSTRUCCIÓN.
+                    RENTA MAQUINARIA DE CONSTRUCCIÓN.
                     <br />
                     RENTA DE AUTOBUSES.
                     <br />
@@ -78,14 +79,14 @@ export default function Home() {
               </h1>
               <h6>
                 <br />
-                Te hacemos una cotización. ¡Ingresa tu e-mail!
+                ¿Quiéres una cotización? ¡Ingresa tu e-mail!
               </h6>
               <MDBCol className="col-6">
                 <form ref={form}>
                   <div className="md-form">
                     <div className="form-group">
                       <label HtmlFor="email">
-                        <h6>Ingresa tu correo electrónico</h6>
+                        <h6>Nos contactarémos contigo a la brevedad</h6>
                       </label>
                       <input
                         type="email"
@@ -121,7 +122,7 @@ export default function Home() {
                   montacargas, reach trucks, hand pallets y stackers en:
                 </span>
               </div>
-              <h2 className="m-5">Algunos de nuestros proyectos:</h2>
+              <h3 className="m-5 p-2">Algunos de nuestros proyectos:</h3>
               <Carousel />
               <div className="col-md-5 mt-5 mx-2 ">
                 <div className="row">
@@ -165,7 +166,7 @@ export default function Home() {
             <div className="overlayt">
               <video src={'/videos/eye.mp4'} autoPlay loop muted />
             </div>
-            <div className="contentt mx-2">
+            <div className="contentt mx-4 pr-5">
               <h1>
                 CONTACTO
                 <br />
